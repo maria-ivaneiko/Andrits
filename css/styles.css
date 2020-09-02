@@ -1,3 +1,110 @@
-body {
-    color: #d3d3d3;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+/* Call back button */
+@import './callback-bt.css';
+/* Grid */
+@import './grid.css';
+:root{
+    --logoFont: 'Dancing Script';
+    --mainFont: 'Lato';
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: var(--mainFont);
+}
+/* Container */
+.container{
+    width: 100%;
+    max-width: 1115px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Header */
+.header,
+.header-contact{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    flex-direction: row;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.header-logo{
+    font-family: var(--logoFont);
+    font-size: 40px;
+    font-weight: 400;
+}
+.header-logo a{
+    color: black;
+}
+.header-logo a{
+    text-decoration: none;
+}
+.header-contact{
+    flex-direction: column;
+}
+.header-contact i{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+    color: black;
+}
+/* Presentation */
+.section-presentation{
+    display: flex;
+    flex-direction: row;
+}
+.presentation-left,
+.presentation-right{
+    width: 50%;
+}
+.presentation-left{
+    background-image: url('https://unsplash.it/960/540');
+    display: block;
+    width: 50%;
+}
+.presentation-right{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: rgb(243, 243, 243);
+}
+.presentation-title{
+    margin: 25px 0 25px 50px;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    line-height: 50px;
+}
+.presentation-subtitle{
+    margin: 15px 50px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+/* Products */
+.products-img{
+    display: block;
+    border: 1px solid transparent;
+}
+.products-img img{
+    display: block;
+    width: 100%;
+
 }
