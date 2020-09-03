@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 /* Call back button */
-@import './callback-bt.css';
+@import './callback-btn.css';
 /* Grid */
 @import './grid.css';
 :root{
