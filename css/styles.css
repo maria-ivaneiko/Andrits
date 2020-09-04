@@ -21,7 +21,7 @@ body{
 /* Container */
 .container{
     width: 100%;
-    max-width: 1115px;
+    max-width: 1400px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -58,6 +58,19 @@ body{
     letter-spacing: 0.28px;
     color: black;
 }
+.header-btn{
+    background-color: #38a3fd;
+    color: white;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+}
+.header-btn:hover{
+    background-color: white;
+    color: #38a3fd;
+    border: 1px solid #38a3fd;;
+}
 /* Navigation */
 .nav {
     display: flex;
@@ -75,6 +88,7 @@ body{
 }
 .nav-link:hover{
     color: #38a3fd;
+    border-bottom: 1px solid #38a3fd;
 }
 /* Presentation */
 .section-presentation{
