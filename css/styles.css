@@ -26,6 +26,11 @@ body{
     padding-left: 15px;
     padding-right: 15px;
 }
+.container-fluid{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 /* Header */
 .header,
 .header-contact{
@@ -40,23 +45,17 @@ body{
 .header-logo{
     font-size: 40px;
     font-weight: 400;
+    color: #172234;
 }
 .header-logo a{
     font-family: 'Dancing Script', cursive;
-    color: black;
+    color: #172234;
 }
 .header-logo a{
     text-decoration: none;
 }
 .header-contact{
     flex-direction: column;
-}
-.header-contact i{
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.28px;
-    color: black;
 }
 .header-btn{
     background-color: #38a3fd;
@@ -84,7 +83,7 @@ body{
     line-height: 24px;
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
+    color: #172234;
 }
 .nav-link:hover{
     color: #38a3fd;
@@ -94,13 +93,16 @@ body{
 .section-presentation{
     display: flex;
     flex-direction: row;
+    color: #172234;
 }
 .presentation-left,
 .presentation-right{
     width: 50%;
 }
 .presentation-left{
-    background-image: url('https://unsplash.it/960/540');
+    background-image: url(../img/main-img-1.jpg);
+    background-size: cover;
+    background-position: center bottom;
     display: block;
     width: 50%;
 }
@@ -125,10 +127,17 @@ body{
 /* Products */
 .products-img{
     display: block;
-    border: 10px solid transparent;
 }
 .products-img img{
     display: block;
     width: 100%;
-
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/* Testimonial */
+.section-testimonial{
+    padding: 50px 0;
+    background-color: rgb(243, 243, 243);
+    color: #172234;
+    text-align: center;
 }
