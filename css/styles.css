@@ -1,5 +1,8 @@
 /* Grid */
 @import './grid.css';
+:root{
+    --mainColor: #f38181;
+}
 *,
 *::before,
 *::after {
@@ -42,16 +45,14 @@ body{
     margin-top: 35px;
     margin-bottom: 35px;
 }
-.header-logo{
+.logo{
     font-size: 40px;
     font-weight: 400;
     color: #172234;
 }
-.header-logo a{
+.logo a{
     font-family: 'Dancing Script', cursive;
     color: #172234;
-}
-.header-logo a{
     text-decoration: none;
 }
 .header-contact{
@@ -66,7 +67,7 @@ body{
     margin-right: 7px;
 }
 .header-btn{
-    background-color: #38a3fd;
+    background-color: var(--mainColor);
     color: white;
     border: none;
     padding-left: 15px;
@@ -75,8 +76,8 @@ body{
 }
 .header-btn:hover{
     background-color: white;
-    color: #38a3fd;
-    border: 1px solid #38a3fd;;
+    color: var(--mainColor);
+    border: 1px solid var(--mainColor);
 }
 /* Navigation */
 .nav {
@@ -94,8 +95,8 @@ body{
     color: #172234;
 }
 .nav-link:hover{
-    color: #38a3fd;
-    border-bottom: 1px solid #38a3fd;
+    color: var(--mainColor);
+    border-bottom: 1px solid var(--mainColor);
 }
 /* Presentation */
 .section-presentation{
@@ -167,7 +168,7 @@ body{
     bottom: 0;
     
     margin-bottom: 11px;
-    background-color: #f38181;
+    background-color: var(--mainColor);
     
     left: 50%;
     margin-left: -50px;
@@ -177,5 +178,27 @@ body{
 }
 /* Footer */
 .footer{
+    padding: 25px 0;
     background-color: black;
 }
+.footer-logo a{
+    color: white;
+}
+.footer-social{
+    display: flex;
+}
+.social-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    margin-right: 14px;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 16px;
+    text-decoration: none;
+}
+.facebook{background-color: #5883c0;}
+.instagram{background-color: var(--mainColor);}
+.youtube{background-color: #dd0000;}
