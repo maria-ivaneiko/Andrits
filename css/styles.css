@@ -57,6 +57,14 @@ body{
 .header-contact{
     flex-direction: column;
 }
+.header-address i{
+    margin-right: 7px;
+    color: rgb(201, 0, 0);
+}
+.header-phone i{
+    color: rgb(68, 68, 68);
+    margin-right: 7px;
+}
 .header-btn{
     background-color: #38a3fd;
     color: white;
@@ -140,4 +148,34 @@ body{
     background-color: rgb(243, 243, 243);
     color: #172234;
     text-align: center;
+}
+.section-testimonial i{
+    color: #f38181;
+}
+.testimonial-description{
+    max-width: 825px;
+    padding: 30px 0;
+    position: relative;
+    margin: 0 auto;
+}
+.testimonial-description::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 3px;
+    bottom: 0;
+    
+    margin-bottom: 11px;
+    background-color: #f38181;
+    
+    left: 50%;
+    margin-left: -50px;
+}
+.testimonials-author{
+
+}
+/* Footer */
+.footer{
+    background-color: black;
 }
