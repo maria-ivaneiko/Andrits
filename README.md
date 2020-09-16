@@ -1,5 +1,5 @@
 ## Home page
-[SunSet](https://maria-ivaneiko.github.io/sunset/);
+[SunSet](https://maria-ivaneiko.github.io/sunset){:target="_blank" rel="noopener"}
 
 ## Available Scripts
 
