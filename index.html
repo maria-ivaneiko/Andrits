@@ -1,106 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
     />
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
-    <title>SunSet</title>
-</head>
-<body>
-    <header>
-        <div class="container">
-            <div class="header">
-                <div class="logo">
-                    <a href="#">SunSet</a>
-                </div>
-                <nav class="nav">
-                    <a href="#" class="nav-link">Головна</a>
-                    <a href="#" class="nav-link">Продукція</a>
-                    <a href="#" class="nav-link">Про нас</a>
-                    <a href="#" class="nav-link">Відгуки</a>
-                </nav>
-                <div class="header-contact">
-                    <div class="header-address">
-                        <a href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB.+%D0%9A%D1%83%D0%BB%D1%8C%D0%BF%D0%B0%D1%80%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0,+200,+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2,+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+79000/@49.8115951,23.9809552,17z/data=!3m1!4b1!4m5!3m4!1s0x473ae7100b20cd31:0xf336c8cabc83792d!8m2!3d49.8115917!4d23.9831439" target="_blank">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Львів, вул. Львівська, 1</span>
-                        </a>
-                    </div>
-                    <div class="header-phone">
-                        <i class="fas fa-phone-alt"></i>
-                        <span>+38(063)0000000</span>
-                    </div>
-                </div>
-                <button class="header-btn">Замовити замірника</button>
-            </div>
-        </div>
-    </header>
-    <div class="section-presentation">
-        <div class="presentation-left"></div>
-        <div class="presentation-right">
-            <h1 class="presentation-title">Головний заголовок</h1>
-            <h2 class="presentation-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto id laudantium nobis totam eos, nulla quam. Illum itaque ea blanditiis hic, adipisci architecto ipsa consectetur deleniti? Facere dolores deleniti minima. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae tenetur reprehenderit ab officiis sunt corrupti modi architecto laudantium quisquam. Ratione, odio impedit libero eius in aliquam eligendi itaque explicabo non!</h2>
-        </div>
-    </div>
-    <div class="section-products">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col col-33">
-                    <div class="products-img">
-                        <img src="https://unsplash.it/520/520">
-                    </div>
-                </div>
-                <div class="col col-33">
-                    <div class="products-img">
-                        <img src="https://unsplash.it/520/520">
-                    </div>
-                </div>
-                <div class="col col-33">
-                    <div class="products-img">
-                        <img src="https://unsplash.it/520/520">
-                    </div>
-                </div>
-                <div class="col col-33">
-                    <div class="products-img">
-                        <img src="https://unsplash.it/520/520">
-                    </div>
-                </div>
-                <div class="col col-33">
-                    <div class="products-img">
-                        <img src="https://unsplash.it/520/520">
-                    </div>
-                </div>
-                <div class="col col-33">
-                    <div class="products-img">
-                        <img src="https://unsplash.it/520/520">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section-testimonial">
-        <i class="fas fa-quote-right"></i>
-        <p class="testimonial-description">“ Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi. ”</p>
-        <span class="testimonials-author">John Doe</span>
-    </div>
-    <footer class="footer">
-        <div class="container">
-            <div class="logo footer-logo">
-                <a href="#">SunSet</a>
-            </div>
-            <div class="footer-social">
-                <a href="#" class="social-item facebook"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="social-item instagram"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="social-item olx"><img src="./img/favicon-olx.ico" alt=""></a>
-                <a href="#" class="social-item youtube"><i class="fab fa-youtube"></i></a>
-            </div>
-        </div>
-    </footer>
-</body>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
 </html>
