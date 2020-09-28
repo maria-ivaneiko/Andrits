@@ -1,2 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+/* Bootstrap */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+/* Font awesome */
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
 @import './assets/styles/header.css';
+@import './assets/styles/buttons.css';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
