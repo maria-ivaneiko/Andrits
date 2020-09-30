@@ -1,5 +1,58 @@
 /* Components: card */
 
 .card {
-  
+  border: none;
+  box-shadow: 0 .25rem .25rem rgba(0,0,0,0.15);
+  position: relative;
 }
+  .card-body {
+    padding: .5rem
+  }
+    .card-labels {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: absolute;
+      top: 0; left: 0;
+      margin: .5rem;
+    }
+      .card-labels-item + .card-labels-item {
+        margin-top: .25rem;
+      }
+      .card-labels-item.new,
+      .card-labels-item.off {
+        border-radius: .25rem;
+        color: white;
+        font-size: .875rem;
+        font-weight: 400;
+        padding: .25rem .5rem;
+        text-transform: uppercase;
+      }
+    .card-title {
+      
+    }
+    .card-price,
+    .card-old-price {
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+    .card-price {
+      color: rgb(96, 96, 96);
+    }
+    .card-old-price {
+      position: relative;
+      color: rgb(175, 175, 175);
+    }
+    .card-old-price::before {
+      content: '';
+      height: 2px;
+      width: 100%;
+      position: absolute;
+      left: 0; top: 50%;
+      background-color: rgb(175, 175, 175);
+      margin-top: -1px;
+    }
+  .card-footer {
+    background-color: transparent;
+    padding: .5rem;
+  }

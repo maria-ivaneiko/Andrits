@@ -20,3 +20,5 @@ body {
   background-color: #ededed !important;
   font-family: 'Roboto', sans-serif !important;
 }
+
+.spacer { flex-grow: 1; }
