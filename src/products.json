@@ -1,0 +1,98 @@
+[
+  {
+    "id": "jenlooper-cactus",
+    "imageUrl": "https://www.rehau.com/images/686798/1x1/400/400/a0d122ddc823938e36cce1e34c25259e/Gh/686798.jpg",
+    "title": "The Quantified Cactus: An Easy Plant Soil Moisture Sensor",
+    "description": "This project is a good learning project to get comfortable with soldering and programming an Arduino."
+  },
+  {
+    "id": "jenlooper-light",
+    "imageUrl": "https://www.rehau.com/images/686798/1x1/400/400/a0d122ddc823938e36cce1e34c25259e/Gh/686798.jpg",
+    "title": "A beautiful switch-on book light",
+    "description": "Use craft items you have around the house, plus two LEDs and a LilyPad battery holder, to create a useful book light for reading in the dark."
+  },
+  {
+    "id": "jenlooper-lightshow",
+    "imageUrl": "https://www.rehau.com/images/686798/1x1/400/400/a0d122ddc823938e36cce1e34c25259e/Gh/686798.jpg",
+    "title": "Bling your Laptop with an Internet-Connected Light Show",
+    "description": "Create a web-connected light-strip API controllable from your website, using the Particle.io."
+  },
+  {
+    "id": "jenlooper-survival",
+    "imageUrl": "https://www.rehau.com/images/686798/1x1/400/400/a0d122ddc823938e36cce1e34c25259e/Gh/686798.jpg",
+    "title": "Create a Compact Survival Kit with LED Track Lighting",
+    "description": "Use an Altoids tin with Chibitronics sticker LEDs to create a light-up compact that doubles as a survival kit for the young hipster"
+  },
+  {
+    "id": "sailorhg-bubblesortpic",
+    "imageUrl": "https://www.rehau.com/images/686798/1x1/400/400/a0d122ddc823938e36cce1e34c25259e/Gh/686798.jpg",
+    "title": "Bubblesort Visualization",
+    "description": "Visualization of sailor scouts sorted by bubblesort algorithm by their planet\u0027s distance from the sun"
+  },
+  {
+    "id": "sailorhg-corsage",
+    "imageUrl": "https://www.rehau.com/images/686798/1x1/400/400/a0d122ddc823938e36cce1e34c25259e/Gh/686798.jpg",
+    "title": "Light-up Corsage",
+    "description": "Light-up corsage I made with my summer intern."
+  },
+  {
+    "id": "sailorhg-kit",
+    "imageUrl": "https://www.rehau.com/images/686798/1x1/400/400/a0d122ddc823938e36cce1e34c25259e/Gh/686798.jpg",
+    "title": "Pastel hardware kit",
+    "description": "Pastel hardware kits complete with custom manufactured pastel alligator clips."
+  },
+  {
+    "id": "sailorhg-led",
+    "imageUrl": "https://www.rehau.com/images/686798/1x1/400/400/a0d122ddc823938e36cce1e34c25259e/Gh/686798.jpg",
+    "title": "Heart-shaped LED",
+    "description": "custom molded heart shaped LED with sprinkles."
+  },
+  {
+    "id": "selinazawacki-soi-shirt",
+    "imageUrl": "https://www.rehau.com/images/686798/1x1/400/400/a0d122ddc823938e36cce1e34c25259e/Gh/686798.jpg",
+    "title": "Black Sweatshirt",
+    "description": "Black sweatshirt hoody with the Sick of the Internet logo."
+  },
+  {
+    "id": "selinazawacki-soi-pins",
+    "imageUrl": "https://www.rehau.com/images/686798/1x1/400/400/a0d122ddc823938e36cce1e34c25259e/Gh/686798.jpg",
+    "title": "Sick of the Internet Pins",
+    "description": "Still some time to enter the pin/sticker giveaway! "
+  },
+  {
+    "id": "vogueandcode-hipster-dev-bro",
+    "imageUrl": "https://www.rehau.com/images/686798/1x1/400/400/a0d122ddc823938e36cce1e34c25259e/Gh/686798.jpg",
+    "title": "Hipster Dev",
+    "description": "Hipster Dev is busy coding away while styled in a camo jacket and orange beanie."
+  },
+  {
+    "id": "vogueandcode-pretty-girls-code-tee",
+    "imageUrl": "https://www.rehau.com/images/686798/1x1/400/400/a0d122ddc823938e36cce1e34c25259e/Gh/686798.jpg",
+    "title": "Pretty Girls Code Tee",
+    "description": "Everyone\u2019s favorite design is finally here on a tee! The Pretty Girls Code crew-neck tee is available in a soft pink with red writing."
+  },
+  {
+    "id": "vogueandcode-ruby-sis-2",
+    "imageUrl": "https://www.rehau.com/images/686798/1x1/400/400/a0d122ddc823938e36cce1e34c25259e/Gh/686798.jpg",
+    "title": "Ruby Sis",
+    "description": "Styled in a dashiki, Ruby Sis is listening to music while coding in her favorite language, Ruby!"
+  },
+  {
+    "id": "selinazawacki-moon",
+    "imageUrl": "https://www.rehau.com/images/686798/1x1/400/400/a0d122ddc823938e36cce1e34c25259e/Gh/686798.jpg",
+    "title": "Holographic Dark Moon Necklace",
+    "description": "Not sure if I\u0027ll be making more, get it while I have it in the store."
+  },
+  {
+    "id": "selinazawacki-shirt",
+    "imageUrl": "https://www.rehau.com/images/686798/1x1/400/400/a0d122ddc823938e36cce1e34c25259e/Gh/686798.jpg",
+    "title": "Floppy Crop",
+    "description": "Used up the Diskette fabric today to make 2 of these crops."
+  },
+  {
+    "id": "selinazawacki-shirt",
+    "imageUrl": "https://www.rehau.com/images/686798/1x1/400/400/a0d122ddc823938e36cce1e34c25259e/Gh/686798.jpg",
+    "title": "Floppy Crop",
+    "description": "Used up the Diskette fabric today to make 2 of these crops."
+  }
+]

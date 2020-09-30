@@ -1,0 +1,9 @@
+/* Layouts: Row */
+.row-8 {
+  margin-right: -0.5rem;
+  margin-left: -0.5rem;
+}
+.row-8 > [class^="col"] {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}

@@ -1,6 +1,6 @@
 /* Buttons */
 
-.btn {
+/* .btn {
   text-transform: uppercase;
 }
 
@@ -17,10 +17,10 @@
 .btn-sm {
   border-radius: 20px;
   padding: 8px 16px;
-}
+} */
 
 /* Button scale */
-.btn-scale {
+/* .btn-scale {
   position: relative;
   overflow: hidden;
 }
@@ -47,5 +47,5 @@
 .btn-scale > span {
   position: relative;
   z-index: 1;
-}
+} */
 

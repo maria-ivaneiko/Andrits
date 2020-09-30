@@ -5,10 +5,18 @@
 /* Font awesome */
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
 
-@import './assets/styles/header.css';
-@import './assets/styles/buttons.css';
+/* Layouts */
+@import './assets/styles/layouts/header.css';
+@import './assets/styles/layouts/row.css';
+/* Components */
+@import './assets/styles/components/buttons.css';
+@import './assets/styles/components/cards.css';
+
+html {
+  font-size: 16px;
+}
 
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  background-color: #ededed !important;
+  font-family: 'Roboto', sans-serif !important;
 }
