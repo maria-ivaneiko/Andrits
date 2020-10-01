@@ -2,7 +2,8 @@
 
 .card {
   border: none;
-  box-shadow: 0 .25rem .25rem rgba(0,0,0,0.15);
+  width: 100%;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,0.15);
   position: relative;
 }
   .card-body {
