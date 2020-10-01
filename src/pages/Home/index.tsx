@@ -8,9 +8,9 @@ type IProps = {
 
 const HomePage:React.FC<IProps> = () => {
   return (
-    <div>
+    <>
       <SectionProducts />
-    </div>
+    </>
   )
 }
 

@@ -1,13 +1,17 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+// 
 import Header from 'layouts/Header';
 import HomePage from 'pages/Home';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header/>
-      <HomePage/>
-    </div>
+      <Switch>
+        <Route path="/about" component={HomePage} />
+      </Switch>
+    </>
   );
 }
 

@@ -12,6 +12,10 @@
 @import './assets/styles/components/buttons.css';
 @import './assets/styles/components/cards.css';
 
+:root {
+  --bs-warning: #ffc107;
+}
+
 html {
   font-size: 16px;
 }
@@ -19,6 +23,10 @@ html {
 body {
   background-color: #f8f8f8 !important;
   font-family: 'Roboto', sans-serif !important;
+}
+
+a {
+  color: var(--bs-dark) !important;
 }
 
 .spacer { flex-grow: 1; }
