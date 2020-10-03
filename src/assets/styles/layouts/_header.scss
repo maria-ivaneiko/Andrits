@@ -1,5 +1,7 @@
 /* Layouts: Header */
 
+@import '../settings/bootstrap.variables';
+
 .header {
   
 }
@@ -7,7 +9,7 @@
     
   }
   .header-middle {
-    background-color: var(--bs-warning);
+    background-color: $primary;
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
@@ -22,7 +24,7 @@
     .header-brand {
       text-decoration: none;
 
-      border: 0.25rem solid var(--bs-dark);
+      border: 0.25rem solid $dark;
       color: var(--bs-dark);
       font-size: 1.5rem;
       font-weight: 700;
@@ -32,13 +34,13 @@
       text-transform: uppercase;
     }
       .header-brand:hover {
-        color: var(--bs-dark);
+        color: $dark;
       }
     .header-right {
       text-align: right;
     }
   .header-bottom {
-    background-color: var(--bs-warning);
+    background-color: $primary;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
@@ -60,7 +62,7 @@
   left: 0; bottom: 0;
   width: 0;
   height: .25rem;
-  background-color: var(--bs-dark);
+  background-color: $dark;
   transition: width 0.25s ease-in-out;
 }
 .nav-header .nav-link.active::before,
