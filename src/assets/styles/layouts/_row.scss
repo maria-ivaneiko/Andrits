@@ -2,8 +2,17 @@
 .row-8 {
   margin-right: -0.5rem;
   margin-left: -0.5rem;
+  & > [class^="col"] {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
 }
-.row-8 > [class^="col"] {
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
+
+.row-32 {
+  margin-right: -2rem;
+  margin-left: -2rem;
+  & > [class^="col"] {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
 }
