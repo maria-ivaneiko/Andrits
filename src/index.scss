@@ -64,6 +64,7 @@
 @import './assets/styles/layouts/header';
 @import './assets/styles/layouts/row';
 @import './assets/styles/layouts/slider';
+@import './assets/styles/layouts/section';
 /* Components */
 @import './assets/styles/components/buttons';
 @import './assets/styles/components/cards';
@@ -78,7 +79,7 @@ body {
 }
 
 a {
-  color: var(--bs-dark) !important;
+  color: $dark !important;
 }
 
 .spacer { flex-grow: 1; }

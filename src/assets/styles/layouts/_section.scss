@@ -1,0 +1,38 @@
+// Layouts: Sections
+
+.section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  position: relative;
+
+  min-height: 10rem;
+  &:nth-child(odd) {
+    .section-title {
+      left: auto; right: 0;
+    }
+  }
+  &-title {
+    position: absolute;
+    top: 0; left: 0;
+    color: rgba($primary, .5);
+    font-size: 8rem;
+    font-weight: 700;
+    margin: 0 1rem;
+    text-transform: uppercase;
+  }
+}
+
+.section-products {
+  background-color: $primary;
+  .section-title {
+    color: rgba($dark, .5);
+  }
+}
+
+.section-contacts {
+  background-color: $dark;
+  .section-title {
+    color: rgba(white, .5);
+  }
+}

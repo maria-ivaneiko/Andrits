@@ -3,8 +3,8 @@ import React from 'react';
 
 const SectionProducts = () => {
   return (
-    <div>
-      <h1>Products</h1>
+    <div className="section section-products">
+      <h2 className="section-title">Products</h2>
       {/* <div className="container-fluid">
         <div className="row row-8 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
           {Products.map(product => (

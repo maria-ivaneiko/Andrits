@@ -1,8 +1,9 @@
 import React from 'react';
 // 
 import SectionSlider from './SectionSlider';
+import SectionWhyUs from './SectionWhyUs';
 import SectionProducts from './SectionProducts';
-import SectionFeedback from './SectionFeedback';
+import SectionTestimonial from './SectionTestimonial';
 import SectionContacts from './SectionContacts';
 
 type IProps = {
@@ -11,12 +12,13 @@ type IProps = {
 
 const HomePage:React.FC<IProps> = () => {
   return (
-    <>
+    <div>
       <SectionSlider />
+      <SectionWhyUs />
       <SectionProducts />
-      <SectionFeedback />
+      <SectionTestimonial />
       <SectionContacts />
-    </>
+    </div>
   )
 }
 
