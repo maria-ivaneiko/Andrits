@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4600355024aee01f0e0acd8f63d64946",
+    "revision": "d914ed3256cb88853e0a669974f36c67",
     "url": "https://maria-ivaneiko.github.io/sunset/index.html"
   },
   {
-    "revision": "20fcafa1a8254b0c193a",
-    "url": "https://maria-ivaneiko.github.io/sunset/static/css/2.a411fbb1.chunk.css"
+    "revision": "167e05d8704837756068",
+    "url": "https://maria-ivaneiko.github.io/sunset/static/css/2.92a67de8.chunk.css"
   },
   {
-    "revision": "af86427636a24df7e9df",
-    "url": "https://maria-ivaneiko.github.io/sunset/static/css/main.64325b58.chunk.css"
+    "revision": "d33fe8cde28a4b182c97",
+    "url": "https://maria-ivaneiko.github.io/sunset/static/css/main.36f6f900.chunk.css"
   },
   {
-    "revision": "20fcafa1a8254b0c193a",
-    "url": "https://maria-ivaneiko.github.io/sunset/static/js/2.da1127f7.chunk.js"
+    "revision": "167e05d8704837756068",
+    "url": "https://maria-ivaneiko.github.io/sunset/static/js/2.5244a884.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "https://maria-ivaneiko.github.io/sunset/static/js/2.da1127f7.chunk.js.LICENSE.txt"
+    "url": "https://maria-ivaneiko.github.io/sunset/static/js/2.5244a884.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "af86427636a24df7e9df",
-    "url": "https://maria-ivaneiko.github.io/sunset/static/js/main.3faf00cf.chunk.js"
+    "revision": "d33fe8cde28a4b182c97",
+    "url": "https://maria-ivaneiko.github.io/sunset/static/js/main.45e3b93b.chunk.js"
   },
   {
     "revision": "576d59c736520a5321d4",
@@ -86,5 +86,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee09ad7553b8ad3d81150d609d5341a0",
     "url": "https://maria-ivaneiko.github.io/sunset/static/media/fa-solid-900.ee09ad75.woff"
+  },
+  {
+    "revision": "8ed596310aa4e3b569fe1a4d6cc35980",
+    "url": "https://maria-ivaneiko.github.io/sunset/static/media/slide-1.8ed59631.jpg"
+  },
+  {
+    "revision": "ce63d39ea7b7ffc0e9d582c074e7dd7d",
+    "url": "https://maria-ivaneiko.github.io/sunset/static/media/slide-2.ce63d39e.jpg"
+  },
+  {
+    "revision": "d90338a943eb49f295b1feb52861a7b7",
+    "url": "https://maria-ivaneiko.github.io/sunset/static/media/slide-3.d90338a9.jpg"
   }
 ]);
