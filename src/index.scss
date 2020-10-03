@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+/* Bootstrap */
+// Configuration
+@import '~bootstrap/scss/functions';
+@import './assets/styles/settings/bootstrap.variables';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/utilities';
+
+// Layout & components
+@import '~bootstrap/scss/root';
+@import '~bootstrap/scss/reboot';
+@import '~bootstrap/scss/type';
+@import '~bootstrap/scss/images';
+@import '~bootstrap/scss/containers';
+@import '~bootstrap/scss/grid';
+@import '~bootstrap/scss/tables';
+@import '~bootstrap/scss/forms';
+@import '~bootstrap/scss/buttons';
+@import '~bootstrap/scss/transitions';
+@import '~bootstrap/scss/dropdown';
+@import '~bootstrap/scss/button-group';
+@import '~bootstrap/scss/nav';
+@import '~bootstrap/scss/navbar';
+@import '~bootstrap/scss/card';
+@import '~bootstrap/scss/breadcrumb';
+@import '~bootstrap/scss/pagination';
+@import '~bootstrap/scss/badge';
+@import '~bootstrap/scss/alert';
+@import '~bootstrap/scss/progress';
+@import '~bootstrap/scss/list-group';
+@import '~bootstrap/scss/close';
+@import '~bootstrap/scss/toasts';
+@import '~bootstrap/scss/modal';
+@import '~bootstrap/scss/tooltip';
+@import '~bootstrap/scss/popover';
+@import '~bootstrap/scss/carousel';
+@import '~bootstrap/scss/spinners';
+// Helpers
+@import '~bootstrap/scss/helpers';
+// Utilities
+@import '~bootstrap/scss/utilities/api';
+
+
+/* Font awesome */
+// @import '~@fortawesome/fontawesome-free/scss/variables';
+@import './assets/styles/settings/fontawesome.variables';
+@import './assets/styles/settings/fontawesome/mixins';
+@import './assets/styles/settings/fontawesome/core';
+@import './assets/styles/settings/fontawesome/larger';
+@import './assets/styles/settings/fontawesome/fixed-width';
+@import './assets/styles/settings/fontawesome/list';
+@import './assets/styles/settings/fontawesome/bordered-pulled';
+@import './assets/styles/settings/fontawesome/animated';
+@import './assets/styles/settings/fontawesome/rotated-flipped';
+@import './assets/styles/settings/fontawesome/stacked';
+@import './assets/styles/settings/fontawesome/icons';
+@import './assets/styles/settings/fontawesome/screen-reader';
+
+// Custom styles
+// Reboot
+@import './assets/styles/reboot/fontawesome';
+/* Layouts */
+@import './assets/styles/layouts/header';
+@import './assets/styles/layouts/row';
+@import './assets/styles/layouts/slider';
+/* Components */
+@import './assets/styles/components/buttons';
+@import './assets/styles/components/cards';
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #f8f8f8 !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+a {
+  color: var(--bs-dark) !important;
+}
+
+.spacer { flex-grow: 1; }

@@ -11,9 +11,9 @@ const Header:React.FC<IProps> = () => {
       <div className="header-top">
         <div className="container | d-flex align-items-center">
           <div className="header-left">
-            <Link className="btn" to="https://facebook.com"><i className="fab fa-facebook" aria-hidden="true"></i></Link>
-            <Link className="btn" to="https://instagram.com"><i className="fab fa-instagram" aria-hidden="true"></i></Link>
-            <Link className="btn" to="https://twitter.com"><i className="fab fa-twitter" aria-hidden="true"></i></Link>
+            <Link className="btn" to="https://facebook.com"><i className="fa fa-facebook" aria-hidden="true"></i></Link>
+            <Link className="btn" to="https://instagram.com"><i className="fa fa-instagram" aria-hidden="true"></i></Link>
+            <Link className="btn" to="https://twitter.com"><i className="fa fa-twitter" aria-hidden="true"></i></Link>
           </div>
           <div className="header-right">
             <span style={{ fontSize: '0.875rem' }} className="text-uppercase mr-3">Store location</span>

@@ -1,11 +1,11 @@
 import React from 'react';
-import Products from '../../products.json';
+// import Products from '../../products.json';
 
 const SectionProducts = () => {
   return (
     <div>
       <h1>Products</h1>
-      <div className="container-fluid">
+      {/* <div className="container-fluid">
         <div className="row row-8 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
           {Products.map(product => (
             <div key={product.id} className="col | d-flex mb-3">
@@ -43,7 +43,7 @@ const SectionProducts = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
