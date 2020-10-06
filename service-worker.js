@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://maria-ivaneiko.github.io/sunset/precache-manifest.94fb08ea493486664f1c97d55310a9d8.js"
+  "https://maria-ivaneiko.github.io/sunset/precache-manifest.b99c24796117f03f38d352e7e08071ea.js"
 );
 
 self.addEventListener('message', (event) => {

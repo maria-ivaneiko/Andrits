@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d914ed3256cb88853e0a669974f36c67",
+    "revision": "b7f829d06080b0736e5f01fb0b474e1a",
     "url": "https://maria-ivaneiko.github.io/sunset/index.html"
   },
   {
-    "revision": "167e05d8704837756068",
+    "revision": "0dd44e71ff31a2aa2cca",
     "url": "https://maria-ivaneiko.github.io/sunset/static/css/2.92a67de8.chunk.css"
   },
   {
-    "revision": "d33fe8cde28a4b182c97",
-    "url": "https://maria-ivaneiko.github.io/sunset/static/css/main.36f6f900.chunk.css"
+    "revision": "db1184e39c9e91c7a515",
+    "url": "https://maria-ivaneiko.github.io/sunset/static/css/main.f3483f13.chunk.css"
   },
   {
-    "revision": "167e05d8704837756068",
-    "url": "https://maria-ivaneiko.github.io/sunset/static/js/2.5244a884.chunk.js"
+    "revision": "0dd44e71ff31a2aa2cca",
+    "url": "https://maria-ivaneiko.github.io/sunset/static/js/2.80c40fdf.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "https://maria-ivaneiko.github.io/sunset/static/js/2.5244a884.chunk.js.LICENSE.txt"
+    "url": "https://maria-ivaneiko.github.io/sunset/static/js/2.80c40fdf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d33fe8cde28a4b182c97",
-    "url": "https://maria-ivaneiko.github.io/sunset/static/js/main.45e3b93b.chunk.js"
+    "revision": "db1184e39c9e91c7a515",
+    "url": "https://maria-ivaneiko.github.io/sunset/static/js/main.5be30c83.chunk.js"
   },
   {
     "revision": "576d59c736520a5321d4",
