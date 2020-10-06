@@ -28,6 +28,7 @@
 }
 
 .section-products {
+  padding-top: 8.5rem;
   background-color: $primary;
   .section-title {
     color: rgba($dark, .5);
@@ -39,8 +40,7 @@
 }
 
 .section-contacts {
-  background-color: $dark;
-  .section-title {
-    color: rgba(white, .5);
-  }
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 50vh;
 }

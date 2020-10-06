@@ -3,6 +3,10 @@
 .card {
   border: 0;
   width: 100%;
+  &-footer {
+    background-color: transparent;
+    border-top: 0;
+  }
 }
 
 // Services
@@ -28,9 +32,22 @@
   }
 }
 
+// Products
+.card-product {
+  box-shadow: $box-shadow-sm;
+  .card-title {
+    font-weight: 700;
+  }
+  .card-price {
+    color: $danger;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}
+
 // Testimonial
 .card-testimonial {
-  box-shadow: 0 0 .75rem 0 rgba(0,0,0,0.15);
+  box-shadow: $box-shadow-sm; // 0 0 .75rem 0 rgba(0,0,0,0.15);
   text-align: center;
   .card-body {
     padding: 2rem 2.5rem;

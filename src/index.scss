@@ -4,6 +4,7 @@
 // Configuration
 @import '~bootstrap/scss/functions';
 @import './assets/styles/settings/bootstrap.variables';
+@import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
 @import '~bootstrap/scss/utilities';
 
@@ -62,6 +63,7 @@
 @import './assets/styles/reboot/fontawesome';
 /* Layouts */
 @import './assets/styles/layouts/header';
+@import './assets/styles/layouts/footer';
 @import './assets/styles/layouts/row';
 @import './assets/styles/layouts/slider';
 @import './assets/styles/layouts/section';
