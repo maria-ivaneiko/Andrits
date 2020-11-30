@@ -1,29 +1,24 @@
 {
   "files": {
-    "main.css": "https://maria-ivaneiko.github.io/sunset/static/css/main.f3483f13.chunk.css",
-    "main.js": "https://maria-ivaneiko.github.io/sunset/static/js/main.5be30c83.chunk.js",
-    "main.js.map": "https://maria-ivaneiko.github.io/sunset/static/js/main.5be30c83.chunk.js.map",
+    "main.css": "https://maria-ivaneiko.github.io/sunset/static/css/main.35227f5c.chunk.css",
+    "main.js": "https://maria-ivaneiko.github.io/sunset/static/js/main.fcfebfe0.chunk.js",
+    "main.js.map": "https://maria-ivaneiko.github.io/sunset/static/js/main.fcfebfe0.chunk.js.map",
     "runtime-main.js": "https://maria-ivaneiko.github.io/sunset/static/js/runtime-main.a9e2921c.js",
     "runtime-main.js.map": "https://maria-ivaneiko.github.io/sunset/static/js/runtime-main.a9e2921c.js.map",
-    "static/css/2.92a67de8.chunk.css": "https://maria-ivaneiko.github.io/sunset/static/css/2.92a67de8.chunk.css",
-    "static/js/2.80c40fdf.chunk.js": "https://maria-ivaneiko.github.io/sunset/static/js/2.80c40fdf.chunk.js",
-    "static/js/2.80c40fdf.chunk.js.map": "https://maria-ivaneiko.github.io/sunset/static/js/2.80c40fdf.chunk.js.map",
+    "static/js/2.72221518.chunk.js": "https://maria-ivaneiko.github.io/sunset/static/js/2.72221518.chunk.js",
+    "static/js/2.72221518.chunk.js.map": "https://maria-ivaneiko.github.io/sunset/static/js/2.72221518.chunk.js.map",
     "index.html": "https://maria-ivaneiko.github.io/sunset/index.html",
-    "precache-manifest.b99c24796117f03f38d352e7e08071ea.js": "https://maria-ivaneiko.github.io/sunset/precache-manifest.b99c24796117f03f38d352e7e08071ea.js",
+    "precache-manifest.727d98f54186ac82c6c9e4615607de84.js": "https://maria-ivaneiko.github.io/sunset/precache-manifest.727d98f54186ac82c6c9e4615607de84.js",
     "service-worker.js": "https://maria-ivaneiko.github.io/sunset/service-worker.js",
-    "static/css/2.92a67de8.chunk.css.map": "https://maria-ivaneiko.github.io/sunset/static/css/2.92a67de8.chunk.css.map",
-    "static/css/main.f3483f13.chunk.css.map": "https://maria-ivaneiko.github.io/sunset/static/css/main.f3483f13.chunk.css.map",
-    "static/js/2.80c40fdf.chunk.js.LICENSE.txt": "https://maria-ivaneiko.github.io/sunset/static/js/2.80c40fdf.chunk.js.LICENSE.txt",
+    "static/css/main.35227f5c.chunk.css.map": "https://maria-ivaneiko.github.io/sunset/static/css/main.35227f5c.chunk.css.map",
+    "static/js/2.72221518.chunk.js.LICENSE.txt": "https://maria-ivaneiko.github.io/sunset/static/js/2.72221518.chunk.js.LICENSE.txt",
     "static/media/index.scss": "https://maria-ivaneiko.github.io/sunset/static/media/fa-solid-900.ee09ad75.woff",
-    "static/media/slide-1.jpg": "https://maria-ivaneiko.github.io/sunset/static/media/slide-1.8ed59631.jpg",
-    "static/media/slide-2.jpg": "https://maria-ivaneiko.github.io/sunset/static/media/slide-2.ce63d39e.jpg",
     "static/media/slide-3.jpg": "https://maria-ivaneiko.github.io/sunset/static/media/slide-3.d90338a9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a9e2921c.js",
-    "static/css/2.92a67de8.chunk.css",
-    "static/js/2.80c40fdf.chunk.js",
-    "static/css/main.f3483f13.chunk.css",
-    "static/js/main.5be30c83.chunk.js"
+    "static/js/2.72221518.chunk.js",
+    "static/css/main.35227f5c.chunk.css",
+    "static/js/main.fcfebfe0.chunk.js"
   ]
 }
