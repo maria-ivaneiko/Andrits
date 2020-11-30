@@ -44,3 +44,23 @@
   padding-bottom: 0;
   height: 50vh;
 }
+
+// Hero
+.section-hero{
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  img {
+    display: block;
+    width: 100%;
+  }
+  &_contant{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+  }
+  &_description{
+  }
+}

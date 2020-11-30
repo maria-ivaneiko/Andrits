@@ -11,49 +11,27 @@ const Header:React.FC<IProps> = () => {
       <div className="header-top">
         <div className="container | d-flex align-items-center">
           <div className="header-left">
-            <Link className="btn" to="https://facebook.com"><i className="fa fa-facebook" aria-hidden="true"></i></Link>
-            <Link className="btn" to="https://instagram.com"><i className="fa fa-instagram" aria-hidden="true"></i></Link>
-            <Link className="btn" to="https://twitter.com"><i className="fa fa-twitter" aria-hidden="true"></i></Link>
+            <a className="btn" href="https://facebook.com"><i className="fa fa-facebook" aria-hidden="true"></i></a>
+            <a className="btn" href="https://instagram.com"><i className="fa fa-instagram" aria-hidden="true"></i></a>
+            <a className="btn" href="https://twitter.com"><i className="fa fa-twitter" aria-hidden="true"></i></a>
           </div>
           <div className="header-right">
-            <span style={{ fontSize: '0.875rem' }} className="text-uppercase mr-3">Store location</span>
-            <span style={{ fontSize: '0.875rem' }} className="text-uppercase mr-3">UAH</span>
-            <span style={{ fontSize: '0.875rem' }} className="text-uppercase ">English</span>
+            <a className="ml-3" style={{ fontSize: '0.875rem' }} href="tel:+380931234567">
+              <i className="fa fa-phone-alt mr-2" arian-hidden="true"></i>+380931234567
+            </a>
+            <a className="ml-3" style={{ fontSize: '0.875rem' }} href="tel:+380931234567">
+              <i className="fa fa-phone-alt mr-2" arian-hidden="true"></i>+380961234567
+            </a>
+            <a className="ml-3" style={{ fontSize: '0.875rem' }} href="tel:+380931234567">
+              <i className="fa fa-phone-alt mr-2" arian-hidden="true"></i>+380501234567
+            </a>
           </div>
         </div>
       </div>
       <div className="header-middle">
-        <div className="container | d-flex align-items-center">
-          <div className="header-left | d-flex flex-column">
-            <Link style={{ fontSize: '0.875rem' }} to="tel:+380931234567">
-              <i className="fa fa-phone-alt mr-2" arian-hidden="true"></i>+380931234567
-            </Link>
-            <Link style={{ fontSize: '0.875rem' }} to="tel:+380931234567">
-              <i className="fa fa-phone-alt mr-2" arian-hidden="true"></i>+380961234567
-            </Link>
-            <Link style={{ fontSize: '0.875rem' }} to="tel:+380931234567">
-              <i className="fa fa-phone-alt mr-2" arian-hidden="true"></i>+380501234567
-            </Link>
-          </div>
+        <div className="container | d-flex align-items-center justify-content-between">
           <Link to="/" className="header-brand" href="">Sanset</Link>
-          <div className="header-right">
-            <button className="btn">
-              <i className="fa fa-search" aria-hidden="true"></i>
-            </button>
-            <button className="btn">
-              <i className="fa fa-heart" aria-hidden="true"></i>
-            </button>
-            <button className="btn">
-              <i className="fa fa-shopping-cart" aria-hidden="true"></i>
-            </button>
-            <button className="btn">
-              <i className="fa fa-bars" aria-hidden="true"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div className="header-bottom">
-        <div className="container | d-flex justify-content-center">
+          <div className="spacer"></div>
           <nav className="nav nav-header">
             <Link className="nav-link active" to="/">Home</Link>
             <Link className="nav-link" to="/">About Us</Link>

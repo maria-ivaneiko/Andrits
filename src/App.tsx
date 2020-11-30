@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import Header from 'layouts/Header';
 import Footer from 'layouts/Footer';
 // Pages
-import HomePage from 'pages/Home';
+import HomePage from 'pages/HomePage';
 
 type IProps = {
 
