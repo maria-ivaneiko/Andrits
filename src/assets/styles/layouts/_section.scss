@@ -28,6 +28,7 @@
 }
 
 .section-products {
+  position: relative;
   padding-top: 8.5rem;
   background-color: $primary;
   .section-title {
@@ -56,11 +57,38 @@
     width: 100%;
   }
   &_contant{
+    padding-top: 15px;
+    padding-bottom: 15px;
     width: 100%;
     position: absolute;
     bottom: 0;
     text-align: center;
   }
   &_description{
+    color: #787878;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
   }
+}
+// SectionProducts
+.section-products {
+  position: relative;
+  padding-top: 4.5rem;
+  background-color: $primary;
+  .section-title {
+    color: rgba($dark, .5);
+  }
+}
+
+.section-products_title{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #191919;
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
 }
