@@ -1,5 +1,5 @@
 import React from 'react';
-// 
+import {Link} from 'react-router-dom'; 
 
 const SectionProducts = () => {
     return (
@@ -10,11 +10,11 @@ const SectionProducts = () => {
                     <div className="row">
                         <div className="col col-2">
                             <div className="categories-img">
-                                <a href="#">
+                                <Link to="/category">
                                     <div className="categories-overlay"></div>
                                     <img src="https://unsplash.it/650/300" alt=""/>
                                     <div className="categories-img_details"><h3>Ролокасети</h3></div>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="col col-2">

@@ -5,6 +5,7 @@ import Header from 'layouts/Header';
 import Footer from 'layouts/Footer';
 // Pages
 import HomePage from 'pages/HomePage';
+import CategoryPage from 'pages/CategoryPage';
 
 type IProps = {
 
@@ -15,7 +16,8 @@ const App:React.FC<IProps> = () => {
     <>
       <Header/>
       <Switch>
-        <Route path="/" component={HomePage} />
+        <Route exact path="/" component={HomePage} />
+        <Route path="/category" component={CategoryPage} />
       </Switch>
       <Footer />
     </>
