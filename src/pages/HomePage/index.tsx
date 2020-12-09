@@ -1,7 +1,7 @@
 import React from 'react';
 //
 import SectionHero from './SectionHero';
-import SectionProducts from './SectionProducts';
+import SectionCategories from './SectionCategories';
 import SectionContacts from './SectionContacts';
 type IProps = {
 
@@ -11,7 +11,7 @@ const HomePage:React.FC<IProps> = () => {
   return (
     <div>
       <SectionHero />
-      <SectionProducts />
+      <SectionCategories />
       <SectionContacts />
     </div>
   )

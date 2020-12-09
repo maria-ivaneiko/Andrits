@@ -27,14 +27,6 @@
   padding-top: 7.5rem;
 }
 
-.section-products {
-  position: relative;
-  padding-top: 8.5rem;
-  background-color: $primary;
-  .section-title {
-    color: rgba($dark, .5);
-  }
-}
 
 .section-testimonial {
   padding-top: 8.5rem;
@@ -72,16 +64,14 @@
   }
 }
 // SectionProducts
-.section-products {
+.section-categories {
   position: relative;
-  padding-top: 4.5rem;
+  padding-top: 8.5rem;
+  padding-bottom: 8.5rem;
   background-color: $primary;
-  .section-title {
-    color: rgba($dark, .5);
-  }
 }
 
-.section-products_title{
+.section-categories_title{
   padding-top: 20px;
   padding-bottom: 20px;
   color: #191919;
