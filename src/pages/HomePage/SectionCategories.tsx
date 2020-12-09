@@ -1,104 +1,43 @@
 import React from 'react';
-import {Link} from 'react-router-dom'; 
+import { Link } from 'react-router-dom';
 
-const SectionProducts = () => {
-    return (
-        <div className="section-categories">
-            <h2 className="section-categories_title">Categories</h2>
-            <div className="container">
-                <div className="section-categories__group">
-                    <div className="row">
-                        <div className="col-6">
-                            <Link to="/category" className="card card-categories">
-                                <img className="card-img" src="https://unsplash.it/1920/1080" alt=""/>
-                                <div className="card-img-overlay">
-                                    <h3 className="card-title">Ролокасети</h3>
-                                </div>
-                            </Link>
-                        </div>
-                        <div className="col-6">
-                            <Link to="/category" className="card card-categories">
-                                <img className="card-img" src="https://unsplash.it/1920/1080" alt=""/>
-                                <div className="card-img-overlay">
-                                    <h3 className="card-title">Ролокасети</h3>
-                                </div>
-                            </Link>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-4">
-                            <Link to="/category" className="card card-categories">
-                                <img className="card-img" src="https://unsplash.it/1920/1080" alt=""/>
-                                <div className="card-img-overlay">
-                                    <h3 className="card-title">Ролокасети</h3>
-                                </div>
-                            </Link>
-                        </div>
-                        <div className="col-4">
-                            <Link to="/category" className="card card-categories">
-                                <img className="card-img" src="https://unsplash.it/1920/1080" alt=""/>
-                                <div className="card-img-overlay">
-                                    <h3 className="card-title">Ролокасети</h3>
-                                </div>
-                            </Link>
-                        </div>
-                        <div className="col-4">
-                            <Link to="/category" className="card card-categories">
-                                <img className="card-img" src="https://unsplash.it/1920/1080" alt=""/>
-                                <div className="card-img-overlay">
-                                    <h3 className="card-title">Ролокасети</h3>
-                                </div>
-                            </Link>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-12">
-                            <Link to="/category" className="card card-categories">
-                                <img className="card-img" src="https://unsplash.it/1920/1080" alt=""/>
-                                <div className="card-img-overlay">
-                                    <h3 className="card-title">Ролокасети</h3>
-                                </div>
-                            </Link>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-3">
-                            <Link to="/category" className="card card-categories">
-                                <img className="card-img" src="https://unsplash.it/1920/1080" alt=""/>
-                                <div className="card-img-overlay">
-                                    <h3 className="card-title">Ролокасети</h3>
-                                </div>
-                            </Link>
-                        </div>
-                        <div className="col-3">
-                            <Link to="/category" className="card card-categories">
-                                <img className="card-img" src="https://unsplash.it/1920/1080" alt=""/>
-                                <div className="card-img-overlay">
-                                    <h3 className="card-title">Ролокасети</h3>
-                                </div>
-                            </Link>
-                        </div>
-                        <div className="col-3">
-                            <Link to="/category" className="card card-categories">
-                                <img className="card-img" src="https://unsplash.it/1920/1080" alt=""/>
-                                <div className="card-img-overlay">
-                                    <h3 className="card-title">Ролокасети</h3>
-                                </div>
-                            </Link>
-                        </div>
-                        <div className="col-3">
-                            <Link to="/category" className="card card-categories">
-                                <img className="card-img" src="https://unsplash.it/1920/1080" alt=""/>
-                                <div className="card-img-overlay">
-                                    <h3 className="card-title">Ролокасети</h3>
-                                </div>
-                            </Link>
-                        </div>
-                    </div>
+type IProps = {};
+
+const categories:Array<any> = [
+  { id: 1, title: 'Ролокасети', imageUrl: 'https://unsplash.it/1920/1080', size: 6 },
+  { id: 2, title: 'Ролокасети', imageUrl: 'https://unsplash.it/1920/1090', size: 6 },
+  { id: 3, title: 'Ролокасети', imageUrl: 'https://unsplash.it/1920/1100', size: 4 },
+  { id: 4, title: 'Ролокасети', imageUrl: 'https://unsplash.it/1920/1110', size: 4 },
+  { id: 5, title: 'Ролокасети', imageUrl: 'https://unsplash.it/1920/1120', size: 4 },
+  { id: 6, title: 'Ролокасети', imageUrl: 'https://unsplash.it/1920/1130', size: 12 },
+  { id: 7, title: 'Ролокасети', imageUrl: 'https://unsplash.it/1920/1140', size: 3 },
+  { id: 8, title: 'Ролокасети', imageUrl: 'https://unsplash.it/1920/1150', size: 3 },
+  { id: 9, title: 'Ролокасети', imageUrl: 'https://unsplash.it/1920/1160', size: 3 },
+  { id: 10, title: 'Ролокасети', imageUrl: 'https://unsplash.it/1920/1170', size: 3 }
+]
+
+const SectionProducts:React.FC<IProps> = () => {
+  return (
+    <div className="section-categories">
+      <h2 className="section-categories_title">Categories</h2>
+      <div className="container">
+        <div className="row">
+          {categories.map((category:any) => (
+            <div key={`category-list-item-${category.id}`} className={`col col-${category.size}`}>
+              <Link className="card card-category" to="/category">
+                <div className="card-img-wrapper">
+                  <img className="card-img" src={category.imageUrl} alt=""/>
                 </div>
+                <div className="card-img-overlay">
+                  <h3 className="card-title">{category.title}</h3>
+                </div>
+              </Link>
             </div>
+          ))}
         </div>
-    )
+      </div>
+    </div>
+  )
 }
 
 
