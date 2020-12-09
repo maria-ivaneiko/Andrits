@@ -15,5 +15,4 @@ Make deploy using `gh-pages` from `build` folder
 ## Libraries
 > [Create React App](https://github.com/facebook/create-react-app)
 > [Bootstrap5](https://v5.getbootstrap.com/)
-> [Swiper](https://swiperjs.com/react/)
 > [React google api](https://react-google-maps-api-docs.netlify.app/)

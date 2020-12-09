@@ -8,101 +8,91 @@ const SectionProducts = () => {
             <div className="container">
                 <div className="section-categories__group">
                     <div className="row">
-                        <div className="col col-2">
-                            <div className="categories-img">
-                                <Link to="/category">
-                                    <div className="categories-overlay"></div>
-                                    <img src="https://unsplash.it/650/300" alt=""/>
-                                    <div className="categories-img_details"><h3>Ролокасети</h3></div>
-                                </Link>
-                            </div>
+                        <div className="col-6">
+                            <Link to="/category" className="card card-categories">
+                                <img className="card-img" src="https://unsplash.it/1920/1080" alt=""/>
+                                <div className="card-img-overlay">
+                                    <h3 className="card-title">Ролокасети</h3>
+                                </div>
+                            </Link>
                         </div>
-                        <div className="col col-2">
-                        <div className="categories-img">
-                                <Link to="/category">
-                                    <div className="categories-overlay"></div>
-                                    <img src="https://unsplash.it/650/300" alt=""/>
-                                    <div className="categories-img_details"><h3>Підвіконники</h3></div>
-                                </Link>
-                            </div>
+                        <div className="col-6">
+                            <Link to="/category" className="card card-categories">
+                                <img className="card-img" src="https://unsplash.it/1920/1080" alt=""/>
+                                <div className="card-img-overlay">
+                                    <h3 className="card-title">Ролокасети</h3>
+                                </div>
+                            </Link>
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col col-3">
-                            <div className="categories-img">
-                                <Link to="/category">
-                                    <div className="categories-overlay"></div>
-                                    <img src="https://unsplash.it/430/300" alt=""/>
-                                    <div className="categories-img_details"><h3>Двері</h3></div>
-                                </Link>
-                            </div>
+                        <div className="col-4">
+                            <Link to="/category" className="card card-categories">
+                                <img className="card-img" src="https://unsplash.it/1920/1080" alt=""/>
+                                <div className="card-img-overlay">
+                                    <h3 className="card-title">Ролокасети</h3>
+                                </div>
+                            </Link>
                         </div>
-                        <div className="col col-3">
-                            <div className="categories-img">
-                                <Link to="/category">
-                                    <div className="categories-overlay"></div>
-                                    <img src="https://unsplash.it/430/300" alt=""/>
-                                    <div className="categories-img_details"><h3>Вікна</h3></div>
-                                </Link>
-                            </div>
+                        <div className="col-4">
+                            <Link to="/category" className="card card-categories">
+                                <img className="card-img" src="https://unsplash.it/1920/1080" alt=""/>
+                                <div className="card-img-overlay">
+                                    <h3 className="card-title">Ролокасети</h3>
+                                </div>
+                            </Link>
                         </div>
-                        <div className="col col-3">
-                            <div className="categories-img">
-                                <Link to="/category">
-                                    <div className="categories-overlay"></div>
-                                    <img src="https://unsplash.it/430/300" alt=""/>
-                                    <div className="categories-img_details"><h3>Столешні</h3></div>
-                                </Link>
-                            </div>
+                        <div className="col-4">
+                            <Link to="/category" className="card card-categories">
+                                <img className="card-img" src="https://unsplash.it/1920/1080" alt=""/>
+                                <div className="card-img-overlay">
+                                    <h3 className="card-title">Ролокасети</h3>
+                                </div>
+                            </Link>
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col">
-                            <div className="categories-img">
-                                <Link to="/category">
-                                    <div className="categories-overlay"></div>
-                                    <img src="https://unsplash.it/1310/300" alt=""/>
-                                    <div className="categories-img_details"><h3>Гаражні Ворота</h3></div>
-                                </Link>
-                            </div>
+                        <div className="col-12">
+                            <Link to="/category" className="card card-categories">
+                                <img className="card-img" src="https://unsplash.it/1920/1080" alt=""/>
+                                <div className="card-img-overlay">
+                                    <h3 className="card-title">Ролокасети</h3>
+                                </div>
+                            </Link>
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col col-4">
-                            <div className="categories-img">
-                                <Link to="/category">
-                                    <div className="categories-overlay"></div>
-                                    <img src="https://unsplash.it/325/300" alt=""/>
-                                    <div className="categories-img_details"><h3>Жалюзі</h3></div>
-                                </Link>
-                            </div>
+                        <div className="col-3">
+                            <Link to="/category" className="card card-categories">
+                                <img className="card-img" src="https://unsplash.it/1920/1080" alt=""/>
+                                <div className="card-img-overlay">
+                                    <h3 className="card-title">Ролокасети</h3>
+                                </div>
+                            </Link>
                         </div>
-                        <div className="col col-4">
-                            <div className="categories-img">
-                                <Link to="/category">
-                                    <div className="categories-overlay"></div>
-                                    <img src="https://unsplash.it/325/300" alt=""/>
-                                    <div className="categories-img_details"><h3>Тканинні ролети</h3></div>
-                                </Link>
-                            </div>
+                        <div className="col-3">
+                            <Link to="/category" className="card card-categories">
+                                <img className="card-img" src="https://unsplash.it/1920/1080" alt=""/>
+                                <div className="card-img-overlay">
+                                    <h3 className="card-title">Ролокасети</h3>
+                                </div>
+                            </Link>
                         </div>
-                        <div className="col col-4">
-                            <div className="categories-img">
-                                <Link to="/category">
-                                    <div className="categories-overlay"></div>
-                                    <img src="https://unsplash.it/325/300" alt=""/>
-                                    <div className="categories-img_details"><h3>Москітні сітки</h3></div>
-                                </Link>
-                            </div>
+                        <div className="col-3">
+                            <Link to="/category" className="card card-categories">
+                                <img className="card-img" src="https://unsplash.it/1920/1080" alt=""/>
+                                <div className="card-img-overlay">
+                                    <h3 className="card-title">Ролокасети</h3>
+                                </div>
+                            </Link>
                         </div>
-                        <div className="col col-4">
-                            <div className="categories-img">
-                                <Link to="/category">
-                                    <div className="categories-overlay"></div>
-                                    <img src="https://unsplash.it/325/300" alt=""/>
-                                    <div className="categories-img_details"><h3>Сервіс</h3></div>
-                                </Link>
-                            </div>
+                        <div className="col-3">
+                            <Link to="/category" className="card card-categories">
+                                <img className="card-img" src="https://unsplash.it/1920/1080" alt=""/>
+                                <div className="card-img-overlay">
+                                    <h3 className="card-title">Ролокасети</h3>
+                                </div>
+                            </Link>
                         </div>
                     </div>
                 </div>
